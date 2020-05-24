@@ -3,4 +3,6 @@
     <string name="can_app" translatable="false">Can App</string>
     <string name="button_login">Log In</string>
     <string name="button_register">Register</string>
+    <string name="message_login">Has Hecho Click en el Boton Login</string>
+    <string name="message_register">Has hecho click en el boton Registrarse</string>
 </resources>
