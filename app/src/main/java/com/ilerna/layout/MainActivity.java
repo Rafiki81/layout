@@ -2,6 +2,7 @@ package com.ilerna.layout;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -35,6 +36,9 @@ public class MainActivity extends AppCompatActivity {
     private void functionRegister(View v) {
 
         Toast.makeText(this, getString(R.string.message_register), Toast.LENGTH_SHORT).show();
+
+        Intent intent = new Intent(MainActivity.this,RegisterActivity.class);
+        startActivity(intent);
     }
 
     public void funcionLogin(View v){
