@@ -7,14 +7,16 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="428dp"
-        android:layout_height="49dp"
-        android:text="Button"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/login"
-        app:layout_constraintVertical_bias="0.134"
-        tools:layout_editor_absoluteX="-9dp" />
+        android:id="@+id/buttonRegister"
+        android:layout_width="247dp"
+        android:layout_height="64dp"
+        android:layout_margin="20dp"
+        android:text="@string/button_register"
+        app:layout_constraintBottom_toTopOf="@+id/buttonlogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/register"
+        app:layout_constraintVertical_bias="0.936" />
 
     <ImageView
         android:id="@+id/register"
@@ -32,25 +34,25 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="48dp"
         android:text="@string/can_app"
         android:textAlignment="center"
         android:textSize="36dp"
         android:textStyle="bold"
         android:typeface="sans"
-        app:layout_constraintBottom_toTopOf="@+id/login"
+        app:layout_constraintBottom_toTopOf="@+id/buttonRegister"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.1" />
+        app:layout_constraintTop_toBottomOf="@+id/register" />
 
     <Button
-        android:id="@+id/login"
-        android:layout_width="428dp"
-        android:layout_height="49dp"
-        android:text="Button"
+        android:id="@+id/buttonlogin"
+        android:layout_width="247dp"
+        android:layout_height="64dp"
+        android:layout_margin="20dp"
+        android:text="@string/button_login"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/register"
-        app:layout_constraintVertical_bias="0.59"
-        tools:layout_editor_absoluteX="-6dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/register"
+        app:layout_constraintVertical_bias="0.791" />
 </androidx.constraintlayout.widget.ConstraintLayout>
