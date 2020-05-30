@@ -6,18 +6,19 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
-public class RegisterActivity extends AppCompatActivity {
+public class Login extends AppCompatActivity {
 
-    Button buttonRegister;
+    Button buttonLogin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_register);
+        setContentView(R.layout.activity_login);
 
-        buttonRegister = findViewById(R.id.button);
-        buttonRegister.setOnClickListener(new View.OnClickListener() {
+        buttonLogin = findViewById(R.id.button);
+        buttonLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 funcionLogin(v);
@@ -26,7 +27,9 @@ public class RegisterActivity extends AppCompatActivity {
     }
 
     private void funcionLogin(View v) {
-        Intent intent = new Intent(RegisterActivity.this,Login.class);
+
+        Toast.makeText(this, getString(R.string.message_login), Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(Login.this,SoundActivity.class);
         startActivity(intent);
     }
 }

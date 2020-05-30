@@ -1,12 +1,16 @@
 <resources>
-    <string name="app_name">layout</string>
+    <string name="app_name">Can App</string>
     <string name="can_app" translatable="false">Can App</string>
     <string name="button_login">Log In</string>
     <string name="button_register">Register</string>
     <string name="message_login">Has Hecho Click en el Boton Login</string>
     <string name="message_register">Has hecho click en el boton Registrarse</string>
     <string name="user_name">User Name</string>
-    <string name="password">password</string>
+    <string name="password">Password</string>
     <string name="register">Register</string>
+    <string name="nombre">Name</string>
+    <string name="apellido">Surname</string>
+    <string name="email">Email</string>
+    <string name="login">Log In</string>
 
 </resources>

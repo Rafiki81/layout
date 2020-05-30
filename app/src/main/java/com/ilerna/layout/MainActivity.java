@@ -44,5 +44,7 @@ public class MainActivity extends AppCompatActivity {
     public void funcionLogin(View v){
 
         Toast.makeText(this, getString(R.string.message_login), Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(MainActivity.this,Login.class);
+        startActivity(intent);
     }
 }
