@@ -35,8 +35,6 @@ public class Login extends AppCompatActivity {
 
     private void funcionLogin(View v) {
         BaseDatos bbdd = new BaseDatos(this,"CanApp",null,1);
-
-
         if(bbdd.getData().isEmpty()){
             Toast.makeText(this, getString(R.string.noUsers), Toast.LENGTH_SHORT).show();
         }else{

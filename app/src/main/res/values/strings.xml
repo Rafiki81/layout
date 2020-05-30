@@ -20,5 +20,7 @@
     <string name="message_create">A new user has been created</string>
     <string name="noUsers">There is no User Registered</string>
     <string name="userPassMismatch">There is no user with that Password</string>
+    <string name="ladrar">ladrar</string>
+    <string name="parar">parar</string>
 
 </resources>

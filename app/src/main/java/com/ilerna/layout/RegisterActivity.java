@@ -32,7 +32,6 @@ public class RegisterActivity extends AppCompatActivity {
         buttonRegister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 registerUser();
             }
         });
@@ -60,8 +59,4 @@ public class RegisterActivity extends AppCompatActivity {
 
     }
 
-    private void funcionLogin(View v) {
-        Intent intent = new Intent(RegisterActivity.this,Login.class);
-        startActivity(intent);
-    }
 }

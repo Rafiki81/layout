@@ -4,6 +4,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
     tools:context=".SoundActivity">
+
+    <Button
+        android:id="@+id/parar"
+        android:layout_width="247dp"
+        android:layout_height="64dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_rounded"
+        android:text="@string/parar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.554"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ladrar"
+        app:layout_constraintVertical_bias="0.191" />
+
+    <Button
+        android:id="@+id/ladrar"
+        android:layout_width="247dp"
+        android:layout_height="64dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_rounded"
+        android:text="@string/ladrar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.573"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.322" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
