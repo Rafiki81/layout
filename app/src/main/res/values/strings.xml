@@ -12,5 +12,13 @@
     <string name="apellido">Surname</string>
     <string name="email">Email</string>
     <string name="login">Log In</string>
+    <string name="message_name_empty">name can\'t be empty</string>
+    <string name="message_surname_empty">surmane can\'t be empty</string>
+    <string name="message_userName_empty">User Name can\'t be empty</string>
+    <string name="message_email_empty">email user cam\'t be empty</string>
+    <string name="message_password_empty">Password can\'t be empty</string>
+    <string name="message_create">A new user has been created</string>
+    <string name="noUsers">There is no User Registered</string>
+    <string name="userPassMismatch">There is no user with that Password</string>
 
 </resources>
